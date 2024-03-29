@@ -5,19 +5,19 @@ Supervised machine learning project to predict client subscription to a term dep
 
  
 Contents
-- 1.0	Introduction
-- 2.0	Data Formatting & Quality Issues
-- 3.0	Data Exploration, Descriptive Statistics & Visualisations
-- 4.0	Regression Analysis
-- 5.0	Prediction & Accuracy
-- 6.0	Findings/Written Report Incl Intro
-- 7.0	References
-- 8.0	R Code
+ 1.	Introduction
+ 2.	Data Formatting & Quality Issues
+ 3.	Data Exploration, Descriptive Statistics & Visualisations
+ 4.	Regression Analysis
+ 5.	Prediction & Accuracy
+ 6.	Findings/Written Report Incl Intro
+ 7.	References
+ 8.	R Code
 - Appendix 1 : Summary complete dataset – Virgin Data
 - Appendix 2 : GLM Complete Model
 - Appendix 3 : Data Format
  
-### 1.0	Introduction
+### 1.	Introduction
 Understanding and measuring implicit cognition is providing marketing researchers with the ability to probe automatic processes without the reliance on conscious deliberation Nevid (2010). These efforts by many marketers to record and understand the attitudes of consumers is not a new concept, it dates to the mid twentieth century with publications like that by Vance Packard ‘The Hidden Persuaders’ where the authors investigate the efforts to monitor the unconscious motivations in the influence of thought processes and purchasing decisions.
 
 McKinsey (2011) reports that companies are capturing trillions of bytes of data on customers, with some citizens views as an intrusion of privacy and regard this accumulation of data with deep suspicion. They report that the world is on a cusp of tremendous innovation as the rate of change big data is bringing is at an inflection point and will expand greatly as technology trends accelerate and converge.
@@ -41,7 +41,7 @@ The hypothesis below will be test throughout this study to understand if the dat
  - H0 –  Null Hypothesis – there is no relationship between Subscription and other variables
  - H1 –  a relationship exists between Subscription and other variables
 
-### 2.0	Data Formatting & Quality Issues
+### 2.	Data Formatting & Quality Issues
 Exploring the data that has been received it is evident issues exist in the data quality & formatting. These issues will be resolved in order to progress with the data analysis and data modelling. To carry out the formatting tasks both datasets test & train are joined using rbind() function in order to reduce the workload required to clean two data frames. On completion the data will be split back into 80% train 20% test for the regression model.
 From summary of the data all variables are showing as either numeric or character variables. In reality this is not the case, from the data dictionary it is compared that all character variables shown should be set as factors (see list of variables in Table 1 and variable types required). The mutate() function is a very quick way to convert these, lapply can also be used as an alternative for a given range ie. data[3:11].
  
@@ -49,7 +49,7 @@ From summary of the data all variables are showing as either numeric or characte
 
 ![Figure 1 jpeg](https://github.com/devrow-d/regression/assets/113155044/0dd5923f-583a-472a-a548-e9cddf818e4a)
 
-### 3.0	Data Exploration, Descriptive Statistics & Visualisations
+### 3.	Data Exploration, Descriptive Statistics & Visualisations
 The dataset supplied is concerned with retail bank client personal information and other variables including social & economic performance. The dataset contains 41,188 observations and 22 variables with numeric and categorical classifications. The data is based on historical information captured on the performance of a telephone & cellular marketing campaign to sell subscriptions to a term deposit financial product.
 Table 1 : Dataset Variable Classification
 Column1	Variable	Variable Class
@@ -99,7 +99,7 @@ Visualisation 2
  
 ![Figure 3](https://github.com/devrow-d/regression/assets/113155044/72c67c67-9480-4d86-91d8-b85c24cb1b05)
 
-### 4.0	Regression Analysis
+### 4.	Regression Analysis
 Methodology
 Throughout this study the data mining tasks which needed to be carried out was 1. Data Extraction & Binding 2. Data Cleaning & Quality Issues 3. Descriptive Statistics with Visualisations 4. Data Exploration & Initial Analysis 5. Data Splitting 80% Train 20% Test 6. Model Development & Accuracy 7. Prediction on Test Data. The overall data analysis will look at the fit of the model and try to make the most accurate prediction.
 
@@ -169,7 +169,7 @@ When the DWT is ran on the model a positive autocorrelation can be seen which in
 
 ![Table 11 jpeg](https://github.com/devrow-d/regression/assets/113155044/c027f34a-6459-4e78-b15a-93c35ecacea2)
 
-### 5.0	Prediction & Accuracy
+### 5.	Prediction & Accuracy
 The model developed obtained a 90% accuracy and a kappa value of 0.2939 which translates to have a fair probability. This kappa value could be increased to increase the confidence of the outcome.
 
 - Table 12 : Prediction Model3
@@ -180,7 +180,7 @@ The model developed obtained a 90% accuracy and a kappa value of 0.2939 which tr
  
 ![Table 13 jpeg](https://github.com/devrow-d/regression/assets/113155044/fc8220a6-57ac-4047-8292-aa2e06e48e8d)
  
-### 6.0	Findings/Written Report Incl Intro
+### 6.	Findings/Written Report Incl Intro
 This investigative research study is based on a marketing department dataset from a retail bank which includes 22 variables and 41,188 observations. The aim is to analyse the available data to understand which factors pertaining to the personal data of a customer most influences the chances of customer subscribing to a financial product; in this case a term deposit. 
 A Logistic Regression Model then has been built to support the marketing department make predictions on the outcome of the marketing campaign. Three models in total have been built; the model1 using the full dataset for initial review of the input data. 
 From the analysis of the data it can be seen that many of the variables of the dataset have statistically significant influence on the dependent variable as can be seen from the p values in the tables with the chi-squared test and the t-test. Given the influence of these variables it was paramount to be able to build an accurate logistic regression model to make predictions on the outcome of the marketing campaign for the banks term deposit product.
@@ -189,7 +189,7 @@ From the accuracy and kappa values it the model shows to be accurate, one concer
 The social and economic variables as outlined in the study created major issues in the variance inflation factor as they are all strongly correlated. All except consumer confidence index and number employed which do not have negative impact on the model were removed.
 This study proves that with limited data how an accurate model is built and can be used to predict customers’ decision on purchases. In industry thanks to the applications of models and algorithms like this one, the marketing team can spend more time on more demanding tasks resulting in a cost effective and efficient marketing department Gentsch (2019).
  
-### 7.0	References
+### 7.	References
 Carla Freitas Silveira Netto, Luiz Antonio Slongo (2019) Marketing metrics, Big Data and the role of the marketing department
 
 Davenport, Thomas H. (2014) Big data at work : dispelling the myths, uncovering the opportunities (1st Edition). USA: Harvard Business School Publishing Corporation. 
@@ -204,7 +204,7 @@ McKinsey Global Institute. 2011. Big data: The next frontier for innovation, com
 
 Se´rgio Moro, Paulo Cortez, Paulo Rita (2014) Using customer lifetime value and neural networks to improve the prediction of bank deposit subscription in telemarketing campaigns. The Natural Computing Applications Forum 2014
  
-### 8.0	R Code 
+### 8.	R Code 
 ```
 install.packages("readxl")
 install.packages("dplyr")
