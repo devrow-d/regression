@@ -1,5 +1,5 @@
 
-# Statistics for Business
+# Regression Algorithm - Financial Product
 
 Supervised machine learning project to predict client subscription to a term deposit financial product.
 
