@@ -5,19 +5,19 @@ Supervised machine learning project to predict client subscription to a term dep
 
  
 Contents
- 1.	Introduction
- 2.	Data Formatting & Quality Issues
- 3.	Data Exploration, Descriptive Statistics & Visualisations
- 4.	Regression Analysis
- 5.	Prediction & Accuracy
- 6.	Findings/Written Report Incl Intro
- 7.	References
- 8.	R Code
+* [1.	Introduction](*Intro)
+* [2.	Data Formatting & Quality Issues](*DataFormatting)
+* [3.	Data Exploration, Descriptive Statistics & Visualisations](*DataExploration)
+* [4.	Regression Analysis](*Regression)
+* [5.	Prediction & Accuracy](*Prediction)
+* [6.	Findings/Written Report Incl Intro](*Findings)
+* [7.	References](*References)
+* [8.	R Code](*RCode)
 - Appendix 1 : Summary complete dataset – Virgin Data
 - Appendix 2 : GLM Complete Model
 - Appendix 3 : Data Format
  
-### 1.	Introduction
+## 1.	Introduction
 Understanding and measuring implicit cognition is providing marketing researchers with the ability to probe automatic processes without the reliance on conscious deliberation Nevid (2010). These efforts by many marketers to record and understand the attitudes of consumers is not a new concept, it dates to the mid twentieth century with publications like that by Vance Packard ‘The Hidden Persuaders’ where the authors investigate the efforts to monitor the unconscious motivations in the influence of thought processes and purchasing decisions.
 
 McKinsey (2011) reports that companies are capturing trillions of bytes of data on customers, with some citizens views as an intrusion of privacy and regard this accumulation of data with deep suspicion. They report that the world is on a cusp of tremendous innovation as the rate of change big data is bringing is at an inflection point and will expand greatly as technology trends accelerate and converge.
@@ -41,7 +41,7 @@ The hypothesis below will be test throughout this study to understand if the dat
  - H0 –  Null Hypothesis – there is no relationship between Subscription and other variables
  - H1 –  a relationship exists between Subscription and other variables
 
-### 2.	Data Formatting & Quality Issues
+## 2.	Data Formatting & Quality Issues
 Exploring the data that has been received it is evident issues exist in the data quality & formatting. These issues will be resolved in order to progress with the data analysis and data modelling. To carry out the formatting tasks both datasets test & train are joined using rbind() function in order to reduce the workload required to clean two data frames. On completion the data will be split back into 80% train 20% test for the regression model.
 From summary of the data all variables are showing as either numeric or character variables. In reality this is not the case, from the data dictionary it is compared that all character variables shown should be set as factors (see list of variables in Table 1 and variable types required). The mutate() function is a very quick way to convert these, lapply can also be used as an alternative for a given range ie. data[3:11].
  
@@ -49,7 +49,7 @@ From summary of the data all variables are showing as either numeric or characte
 
 ![Figure 1 jpeg](https://github.com/devrow-d/regression/assets/113155044/0dd5923f-583a-472a-a548-e9cddf818e4a)
 
-### 3.	Data Exploration, Descriptive Statistics & Visualisations
+## 3.	Data Exploration, Descriptive Statistics & Visualisations
 The dataset supplied is concerned with retail bank client personal information and other variables including social & economic performance. The dataset contains 41,188 observations and 22 variables with numeric and categorical classifications. The data is based on historical information captured on the performance of a telephone & cellular marketing campaign to sell subscriptions to a term deposit financial product.
 Table 1 : Dataset Variable Classification
 Column1	Variable	Variable Class
