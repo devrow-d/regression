@@ -169,7 +169,7 @@ When the DWT is ran on the model a positive autocorrelation can be seen which in
 
 ![Table 11 jpeg](https://github.com/devrow-d/regression/assets/113155044/c027f34a-6459-4e78-b15a-93c35ecacea2)
 
-### 5.	Prediction & Accuracy
+## 5.	Prediction & Accuracy
 The model developed obtained a 90% accuracy and a kappa value of 0.2939 which translates to have a fair probability. This kappa value could be increased to increase the confidence of the outcome.
 
 - Table 12 : Prediction Model3
