@@ -5,11 +5,11 @@ Supervised machine learning project to predict client subscription to a term dep
 
  
 Contents
-* [1.	Introduction](#Intro)
+* [1.	Introduction](#Introduction)
 * [2.	Data Formatting & Quality Issues](#DataFormatting)
 * [3.	Data Exploration, Descriptive Statistics & Visualisations](#DataExploration)
 * [4.	Regression Analysis](#Regression)
-* [5.	Prediction & Accuracy](#Prediction)
+* [5.	Prediction & Accuracy](#Prediction-&-Accuracy)
 * [6.	Findings/Written Report Incl Intro](#Findings)
 * [7.	References](#References)
 * [8.	R Code](#RCode)
