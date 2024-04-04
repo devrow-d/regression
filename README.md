@@ -1,6 +1,6 @@
 
-# [Regression Algorithm - Financial Product](#regression-algorithm--financial-product)
-#[Regression Algorithm - Financial Product](#regression-algorithm--financial-product)
+# Regression Algorithm - Financial Product(#regression-algorithm--financial-product)
+
 Supervised machine learning project to predict client subscription to a term deposit financial product.
 
  
@@ -41,7 +41,7 @@ The hypothesis below will be test throughout this study to understand if the dat
  - H0 –  Null Hypothesis – there is no relationship between Subscription and other variables
  - H1 –  a relationship exists between Subscription and other variables
 
-[🔼 Back to top](#Introduction)
+[🔼 Back to top](#Regression Algorithm - Financial Product)
 
 ## Data Formatting & Quality Issues
 
