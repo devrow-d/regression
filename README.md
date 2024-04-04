@@ -13,7 +13,7 @@ Contents
 * [Findings/Written Report Incl Intro](#findingswritten-report-incl-intro)
 * [References](#references)
 * [R Code](#r-code)
-* [Appendix 1 : Summary complete dataset – Virgin Data](#appendix-1--summary-complete-dataset-virgin-data)
+* [Appendix 1 : Summary complete dataset – Virgin Data](#appendix-1--summary-complete-dataset--virgin-data)
 - Appendix 2 : GLM Complete Model
 - Appendix 3 : Data Format
  
