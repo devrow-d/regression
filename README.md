@@ -41,7 +41,7 @@ The hypothesis below will be test throughout this study to understand if the dat
  - H0 –  Null Hypothesis – there is no relationship between Subscription and other variables
  - H1 –  a relationship exists between Subscription and other variables
 
-## Data Formatting
+## Data Formatting & Quality Issues
 
 Data Formatting & Quality Issues
 Exploring the data that has been received it is evident issues exist in the data quality & formatting. These issues will be resolved in order to progress with the data analysis and data modelling. To carry out the formatting tasks both datasets test & train are joined using rbind() function in order to reduce the workload required to clean two data frames. On completion the data will be split back into 80% train 20% test for the regression model.
