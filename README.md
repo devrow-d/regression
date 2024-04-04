@@ -1,5 +1,5 @@
 
-# Regression Algorithm - Financial Product(#regression-algorithm--financial-product)
+# Regression Algorithm - Financial Product
 
 Supervised machine learning project to predict client subscription to a term deposit financial product.
 
