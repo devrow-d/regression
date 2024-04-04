@@ -6,7 +6,7 @@ Supervised machine learning project to predict client subscription to a term dep
  
 Contents
 * [Introduction](#introduction)
-* [Data-Formatting](#data-formatting)
+* [Data Formatting](#data-formatting)
 * [Data Exploration, Descriptive Statistics & Visualisations](#dataExploration)
 * [Regression Analysis](#regression)
 * [Prediction & Accuracy](#prediction-&-Accuracy)
@@ -41,7 +41,9 @@ The hypothesis below will be test throughout this study to understand if the dat
  - H0 –  Null Hypothesis – there is no relationship between Subscription and other variables
  - H1 –  a relationship exists between Subscription and other variables
 
-## Data Formatting & Quality Issues
+## Data Formatting
+
+Data Formatting & Quality Issues
 Exploring the data that has been received it is evident issues exist in the data quality & formatting. These issues will be resolved in order to progress with the data analysis and data modelling. To carry out the formatting tasks both datasets test & train are joined using rbind() function in order to reduce the workload required to clean two data frames. On completion the data will be split back into 80% train 20% test for the regression model.
 From summary of the data all variables are showing as either numeric or character variables. In reality this is not the case, from the data dictionary it is compared that all character variables shown should be set as factors (see list of variables in Table 1 and variable types required). The mutate() function is a very quick way to convert these, lapply can also be used as an alternative for a given range ie. data[3:11].
  
