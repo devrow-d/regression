@@ -41,7 +41,7 @@ The hypothesis below will be test throughout this study to understand if the dat
  - H0 –  Null Hypothesis – there is no relationship between Subscription and other variables
  - H1 –  a relationship exists between Subscription and other variables
 
-[🔼 Back to top](#Regression Algorithm - Financial Product)
+[🔼 Back to top](#introduction)
 
 ## Data Formatting & Quality Issues
 
