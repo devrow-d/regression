@@ -16,7 +16,10 @@ Contents
 * [Appendix 1 : Summary complete dataset – Virgin Data](#appendix-1--summary-complete-dataset--virgin-data)
 * [Appendix 2 : GLM Complete Model](#appendix-2--glm-complete-model)
 * [Appendix 3 : Data Format](#appendix-3--data-format)
- 
+
+Packages
+* caret * readxl * dplyr * psych * ggplot2 * tidyverse * car * Hmisc
+
 ## Introduction
 Understanding and measuring implicit cognition is providing marketing researchers with the ability to probe automatic processes without the reliance on conscious deliberation Nevid (2010). These efforts by many marketers to record and understand the attitudes of consumers is not a new concept, it dates to the mid twentieth century with publications like that by Vance Packard ‘The Hidden Persuaders’ where the authors investigate the efforts to monitor the unconscious motivations in the influence of thought processes and purchasing decisions.
 
