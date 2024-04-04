@@ -41,8 +41,7 @@ The hypothesis below will be test throughout this study to understand if the dat
  - H0 –  Null Hypothesis – there is no relationship between Subscription and other variables
  - H1 –  a relationship exists between Subscription and other variables
 
-<br><hr>
-[🔼 Back to top](#introduction)
+[🔼 Back to top](#Introduction)
 
 ## Data Formatting & Quality Issues
 
