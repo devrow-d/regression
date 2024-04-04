@@ -5,14 +5,14 @@ Supervised machine learning project to predict client subscription to a term dep
 
  
 Contents
-* [1.	Introduction](#introduction)
-* [2.	Data Formatting & Quality Issues](#DataFormatting)
-* [3.	Data Exploration, Descriptive Statistics & Visualisations](#DataExploration)
-* [Regression Analysis](#Regression)
-* [Prediction & Accuracy](#Prediction-&-Accuracy)
-* [Findings/Written Report Incl Intro](#Findings)
+* [Introduction](#introduction)
+* [Data Formatting & Quality Issues](#dataFormatting)
+* [Data Exploration, Descriptive Statistics & Visualisations](#dataExploration)
+* [Regression Analysis](#regression)
+* [Prediction & Accuracy](#prediction-&-Accuracy)
+* [Findings/Written Report Incl Intro](#findings)
 * [References](#references)
-* [8.	R Code](#RCode)
+* [R Code](#rcode)
 - Appendix 1 : Summary complete dataset – Virgin Data
 - Appendix 2 : GLM Complete Model
 - Appendix 3 : Data Format
