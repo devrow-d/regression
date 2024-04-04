@@ -9,7 +9,7 @@ Contents
 * [Data Formatting & Quality Issues](#data-formatting-quality-issues)
 * [Data Exploration, Descriptive Statistics & Visualisations](#dataExploration)
 * [Regression Analysis](#regression)
-* [Prediction & Accuracy](#prediction-accuracy)
+* [Prediction & Accuracy](#prediction--accuracy)
 * [Findings/Written Report Incl Intro](#findings)
 * [References](#references)
 * [R Code](#rcode)
