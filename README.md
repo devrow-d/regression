@@ -189,7 +189,7 @@ From the accuracy and kappa values it the model shows to be accurate, one concer
 The social and economic variables as outlined in the study created major issues in the variance inflation factor as they are all strongly correlated. All except consumer confidence index and number employed which do not have negative impact on the model were removed.
 This study proves that with limited data how an accurate model is built and can be used to predict customers’ decision on purchases. In industry thanks to the applications of models and algorithms like this one, the marketing team can spend more time on more demanding tasks resulting in a cost effective and efficient marketing department Gentsch (2019).
  
-### 7.	References
+## References
 Carla Freitas Silveira Netto, Luiz Antonio Slongo (2019) Marketing metrics, Big Data and the role of the marketing department
 
 Davenport, Thomas H. (2014) Big data at work : dispelling the myths, uncovering the opportunities (1st Edition). USA: Harvard Business School Publishing Corporation. 
