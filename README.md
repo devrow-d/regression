@@ -10,7 +10,7 @@ Contents
 * [Data Exploration, Descriptive Statistics & Visualisations](#data-exploration-descriptive-statistics--visualisations)
 * [Regression Analysis](#regression-analysis)
 * [Prediction & Accuracy](#prediction--accuracy)
-* [Findings/Written Report Incl Intro](#findings--written-report-incl-intro)
+* [Findings/Written Report Incl Intro](#findings-written-report-incl-intro)
 * [References](#references)
 * [R Code](#r-code)
 - Appendix 1 : Summary complete dataset – Virgin Data
