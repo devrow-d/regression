@@ -6,7 +6,7 @@ Supervised machine learning project to predict client subscription to a term dep
  
 Contents
 * [Introduction](#introduction)
-* [Data Formatting & Quality Issues](#data-formatting-&-quality-issues)
+* [Data Formatting & Quality Issues](#data-formatting-quality-issues)
 * [Data Exploration, Descriptive Statistics & Visualisations](#dataExploration)
 * [Regression Analysis](#regression)
 * [Prediction & Accuracy](#prediction-&-Accuracy)
