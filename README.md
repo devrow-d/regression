@@ -11,7 +11,7 @@ Contents
 * [4.	Regression Analysis](#Regression)
 * [5.	Prediction & Accuracy](#Prediction-&-Accuracy)
 * [6.	Findings/Written Report Incl Intro](#Findings)
-* [7.	References](#references)
+* [References](#references)
 * [8.	R Code](#RCode)
 - Appendix 1 : Summary complete dataset – Virgin Data
 - Appendix 2 : GLM Complete Model
